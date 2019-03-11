@@ -30,7 +30,7 @@ namespace TicTacToe
                 if (key.Key == ConsoleKey.Spacebar)
                 {
                     game.PlayLocation();
-                    winner = game.CheckForWiner();
+                    winner = game.CheckForWinner();
                 }
                 if (key.Key == ConsoleKey.R) game.NewGame();
                 if (key.Key == ConsoleKey.Escape) return;

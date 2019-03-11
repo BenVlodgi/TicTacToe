@@ -127,7 +127,7 @@ namespace TicTacToe
             Console.SetCursorPosition(left, right);
         }
 
-        public TicTacToePlayer CheckForWiner()
+        public TicTacToePlayer CheckForWinner()
         {
             for (int row = 0; row < Rows; row++) for (int col = 0; col < Cols; col++)
                 {
